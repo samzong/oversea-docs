@@ -3,8 +3,9 @@ site_name: Oversea Docs
 site_description: This site is CHaT++ User Documents
 site_author: samzong.lu
 repo_url: https://github.com/SAMZONG/oversea-docs
-repo_name: Samzong/Oversea Docs
-copyright: samzong.lu
+repo_name: samzong/oversea-docs
+edit_uri: ./edit/main/docs
+
 
 theme:
   name: material
