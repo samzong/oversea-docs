@@ -1,12 +1,14 @@
 # project info
 site_name: Oversea Docs
+site_description: This site is CHaT++ User Documents
 site_author: samzong.lu
 repo_url: https://github.com/SAMZONG/oversea-docs
-repo_name: samzong/oversea-docs
+repo_name: Samzong/Oversea Docs
+copyright: samzong.lu
 
 theme:
   name: material
-  language: zh
+  language: en
 
   icon:
     repo: fontawesome/brands/github
@@ -39,7 +41,11 @@ extra:
 plugins:
   - search
   - tags
-  - git-revision-date
+  - mermaid2
+    # version: 8.6.4
+
+extra_javascript:
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
 
 markdown_extensions:
   - abbr
@@ -61,7 +67,7 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji 
+      emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - pymdownx.highlight
   - pymdownx.inlinehilite
@@ -69,4 +75,6 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting Started:
-      - Installation: getting-started.md
+      - Installation: 2022.md
+      - S3-tool s3cmd: AWS-1-Use-s3cmd命令行管理S3存储.md
+  - About: https://chatplus.ganjutech.com

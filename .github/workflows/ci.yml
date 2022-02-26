@@ -29,5 +29,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - run: pip install mkdocs-material
-      - run: pip install mkdocs-git-revision-date-plugin 
+      - run: pip install mkdocs-git-revision-date-plugin
+      - run: pip install mkdocs-foo-plugin
+      - run: pip install mkdocs-mermaid2-plugin
       - run: mkdocs gh-deploy --force
