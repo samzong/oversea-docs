@@ -1,0 +1,14 @@
+# project info
+site_name: Oversea Docs
+site_author: samzong.lu
+
+
+theme:
+   name: material
+   language: en
+
+
+nav:
+   - Home: index.md
+   - Getting Started:
+       - Installation: getting-started.md
