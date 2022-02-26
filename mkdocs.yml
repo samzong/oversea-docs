@@ -78,4 +78,5 @@ nav:
   - Getting Started:
       - Installation: 2022.md
       - S3-tool s3cmd: AWS-1-Use-s3cmd命令行管理S3存储.md
+      - Poetry: Poetry.md
   - About: https://chatplus.ganjutech.com
