@@ -1,14 +1,72 @@
 # project info
 site_name: Oversea Docs
 site_author: samzong.lu
-
+repo_url: https://github.com/SAMZONG/oversea-docs
+repo_name: samzong/oversea-docs
 
 theme:
-   name: material
-   language: en
+  name: material
+  language: zh
 
+  icon:
+    repo: fontawesome/brands/github
+
+  palette:
+    scheme: indigo
+
+  font:
+    text: Roboto
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+    - search.suggest
+    - search.highlight
+    - search.share
+
+    - header.autohide
+
+extra:
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Deutsch
+      link: /de/
+      lang: de
+
+plugins:
+  - search
+  - tags
+  - git-revision-date
+
+markdown_extensions:
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+      title: On this page
+      toc_depth: 3
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji 
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
 
 nav:
-   - Home: index.md
-   - Getting Started:
-       - Installation: getting-started.md
+  - Home: index.md
+  - Getting Started:
+      - Installation: getting-started.md
