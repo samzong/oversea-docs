@@ -63,7 +63,6 @@ markdown_extensions:
   - pymdownx.inlinehilite
 
 nav:
-<<<<<<< HEAD
   - 首页: index.md
   - 乐聊客服工作台: chatplus_introduction.md
   # - 乐聊客服机器人: chatplus_aibot.md
@@ -80,11 +79,3 @@ nav:
       - 移动端: chatplus_moblie.md
   - 立即注册使用: register.md
   - 请求功能演示: request_demo.md
-=======
-  - Home: index.md
-  - Getting Started:
-      - Installation: 2022.md
-      - S3-tool s3cmd: AWS-1-Use-s3cmd命令行管理S3存储.md
-      - Poetry: Poetry.md
-  - About: https://chatplus.ganjutech.com
->>>>>>> 61dfaf1bcc1594e1f7b8d2ab611c555ace5ecb1d
