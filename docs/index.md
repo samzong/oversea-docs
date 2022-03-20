@@ -1,51 +1,27 @@
-# Welcome to Oversea
+---
+hide:
+  - navigation # Hide navigation
+  - toc        # Hide table of contents
+---
+# 主页的内容结构
 
-- 采用了新的文档中心 [mkdocs.org](https://www.mkdocs.org).
-- 使用的主题是 [mkdocs-material](https://squidfunk.github.io/mkdocs-material/)
+> 主页顶部流程图
 
-## Commands
+![](https://file.samzong.me/image/U03202109.png)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---
 
-## Project layout
+> 快速上手流程
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+![](https://file.samzong.me/image/U03202121.png)
 
+---
 
-<!-- hidden ? -->
+> 立即注册上手
 
-```py
-import requests
-import json
-import pandas as pd
+![Fhvxlv](http://ipic-typora-samzong.oss-cn-qingdao.aliyuncs.com//uPic/Fhvxlv.png)
 
-url = "https://url/apiauth/v1/taobao/call_api"
+---
 
-headers = {
-    'Content-Type': 'application/json',
-    'Cookie': 'sessid=92d1af5a-bcb6-49c1-8147-f02941c30614'
-    }
+> 产品最近更新日志
 
-
-def main(store_id, api_url, method, params=None):
-    payload = {
-        "shop_id": store_id,
-        "url": api_url,
-        "method_type": method,
-        "app_type": "ERP",
-        }
-
-    if params:
-        payload['params'] = params
-
-    response = requests.request(
-        "POST", url, headers=headers, data=json.dumps(payload), timeout=10)
-
-    return json.loads(response.json()['data'])['response']
-```
