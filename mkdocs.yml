@@ -66,16 +66,18 @@ nav:
   - 首页: index.md
   - 乐聊客服工作台: chatplus_introduction.md
   # - 乐聊客服机器人: chatplus_aibot.md
-  - 更新日志: chatplus_release_log.md
-  - 帮助手册: chatplus_manual.md
-  - 关于我们:
-      - 我们的服务: our_service.md
-      - 我们的客户: our_customers.md
-      - 合作伙伴: our_parnters.md
+
   - 客户端下载:
       - PC端:
           - Windows: chatplus_win.md
           - Mac: chatplus_mac.md
       - 移动端: chatplus_moblie.md
+  - 更新日志: chatplus_release_log.md
+  - 帮助手册: chatplus_manual.md
+  
+  - 关于我们:
+      - 我们的服务: our_service.md
+      - 我们的客户: our_customers.md
+      - 合作伙伴: our_parnters.m
   - 立即注册使用: register.md
   - 请求功能演示: request_demo.md
